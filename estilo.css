@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: blue;
+    padding: 20px;
+}
+
+nav ul {
+    background-color: blue;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 0; 
+}
+
+nav li {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block; 
+    width: 150px;
+}
+
+nav a:hover { 
+    background-color: black;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contenido {
+    display: flex;
+    margin: 60px;
+}
+
+.articulos {
+    flex: 1; 
+    border-right: 3px solid black;
+    padding-right: 20px;
+}
+
+.secciones {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.menu-secundario {
+    width: 20%;
+    margin-top: 60px;
+}
+
+.menu-secundario a {
+    display: block;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px; 
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    background-image: url('img/paisaje5.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+/* Estilos para la clase que contiene las imágenes */
+.imagenes-container {
+    display: flex; /* Utilizamos flexbox para alinear las imágenes horizontalmente */
+    justify-content: space-between; /* Espacio entre las imágenes */
+    align-items: center; /* Centrar verticalmente las imágenes */
+    margin-top: 20px; /* Margen superior para separar del contenido anterior */
+}
+
+/* Estilos para las imágenes dentro del contenedor */
+.imagen-gif {
+    width: 300px; /* Ancho de las imágenes */
+    height: 300px; /* Mantener la proporción de la imagen */
+    justify-content: center;
+    
+}
+
+/* Estilo para el estado normal del enlace */
+a {
+    color: blue; /* Cambia el color del texto */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+/* Estilo para el enlace al pasar el cursor (hover) */
+a:hover {
+    color: red; /* Cambia el color del texto al pasar el cursor */
+    text-decoration: underline; /* Agrega subrayado al enlace */
+}
+
+/* Estilo para los enlaces visitados */
+a:visited {
+    color: black; /* Cambia el color de los enlaces visitados */
+}
+
+/* Estilo para los enlaces activos (haciendo clic) */
+a:active {
+    color: green; /* Cambia el color del enlace al hacer clic */
+}
+
+
+
+
